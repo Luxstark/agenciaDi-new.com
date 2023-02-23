@@ -1,0 +1,237 @@
+:root {
+    font-size: 50px;
+    font-family: Triumvirate Compressed;
+    font-style: normal;
+    font-weight: 500;
+   margin: 0 auto;   
+    
+}/*
+@font-face{
+    font-family:"zombi";
+    src:url(fonts/Triumvirate.ttf);
+}*/
+@font-face {font-family: "Triumvirate Compressed"; src: url("//db.onlinewebfonts.com/t/5a32f658165caabc56128c8cd63b3c63.eot"); src: url("//db.onlinewebfonts.com/t/5a32f658165caabc56128c8cd63b3c63.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5a32f658165caabc56128c8cd63b3c63.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5a32f658165caabc56128c8cd63b3c63.woff") format("woff"), url("//db.onlinewebfonts.com/t/5a32f658165caabc56128c8cd63b3c63.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5a32f658165caabc56128c8cd63b3c63.svg#Triumvirate Compressed") format("svg"); }
+body {
+  /*  background: url(img/anime2.jpeg)fixed center; */
+    background: url(img/wall_2.png) fixed center center;
+    background-size: cover;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto; 
+}
+header{
+    
+    display: flex;
+    justify-content: space-between; 
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(191, 4, 4, 0.78);
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+    padding: 17px;
+}
+.navigation ul li a{
+    font-size: 30px;
+     border-radius: 10px;
+    color:  white;
+    width: 150px;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+.navigation ul li a:hover{
+    transition: 1s;
+    color:  black; 
+    border-radius: 10px;
+    display: block;
+   padding: 15px;
+    text-decoration: none;
+    background-color: #ff7d7d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p { 
+    font-family:sans-serif;
+    font-size: 20px;
+    color: rgba(255, 201, 79, 0.86);
+    width: 700px;
+    text-align: justify;
+   
+}
+
+section{
+    text-align: center;
+    background-color: rgba(115, 2, 2, 0.58);
+}
+h2{
+     border-radius: 30px;
+    color: white;
+    width: 700px;
+    border: 3px solid rgba(191, 4, 4, 0.99);
+    
+}
+img {
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
+    width: 395px;
+}
+.por {
+    width: 320px
+}
+.meri {
+    display: inline-block;
+}
+hr{
+    height: 20px;
+    border-color: #f2f2f2;
+}
+footer{
+    padding: 10px;
+    width: 99%;
+    height: 100px;
+    background-color: rgba(115, 2, 2, 0.58);
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+video {
+   margin-top: 20px;
+    display: block;
+    border-radius: 20px;
+     border: 2px solid #f2f2f2;
+   width: 225px;
+    max-width: 100%;
+     
+}
+.viprincipal{
+      width: 700px;
+    max-width: 100%;
+}
+.galeria {
+    max-width: 100%;
+    display: inline-block;
+   
+}
+.porfolio {
+ max-width: 100%;
+    text-align: center;
+}
+article{
+    max-width: 100%;
+    padding: 10px;
+    display: inline-block;
+}
+label{
+   font-size: 30px;
+    display: block;
+   color: white;
+}
+input{
+   height: 100px;
+    width: 300px;
+}
+.usu{
+    height: 25px;
+    width: 300px;
+}
+button{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.41);
+   border: 2px solid #f2f2f2;
+    margin-bottom: 20px;
+}
+button:hover{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    color: black; 
+    background-color: rgba(255, 255, 255, 0.41);
+   border: 2px solid #f2f2f2;
+}
+.campania{
+    width: 100%;
+}
+.desarrolado{
+    
+    text-align: center;
+}
+.manifiesto{
+    width: 100%;
+}
+h3{
+    background-color: rgba(0, 0, 0, 0.41);
+   border: 2px solid #f2f2f2;
+     border-radius: 20px;
+    margin-top: 5px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+   margin-bottom: 10px;
+}
+h3:hover{
+    background-color: rgba(255, 255, 255, 0.41);
+   border: 2px solid #f2f2f2;
+     border-radius: 20px;
+    margin-top: 5px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    color: black;
+}
+.web{
+    width: 300px;
+}
+.webprin{
+    width: 500px;
+}
+
+@media (min-width: 576) {
+     
+}
+}
+@media (min-width: 768) {
+    
+}
+}
+@media (min-width: 960) {
+    
+}
+}
+@media (min-width: 1170) {
+  
+}
+}

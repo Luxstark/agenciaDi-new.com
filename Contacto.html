@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luciano Tagliero</title>
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    
+    
+    
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+   <!-- <script src="jquery/jquery-3.6.1.js"></script> --> 
+   
+ <style>
+    body {
+  /*  background: url(img/anime2.jpeg)fixed center; */
+    background: url(img/wall_3.png) fixed center center;
+    background-size: cover;
+}
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <header>
+            <a href="index.html"><img src="img/logo.png" 
+           style="
+           width: 90px;
+           padding: 10px;
+          border: 0px;
+           " alt=""></a>
+          
+            <nav class="navigation">
+                <ul>
+                   <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Porfolio.html">Porfolio</a></li>
+                    <li><a href="campa%C3%B1as.html">Campañas</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+    
+
+       <!---------------------------------------------------------->
+         
+            <center style="margin-top: 150px"; ><h2>Contacto</h2> 
+
+   
+
+        <p style="text-align: center;">Por favor complete este formulario para contactar.</p>
+        <form action="";>
+           
+            <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                <label>Nombre</label>
+                <input class="usu" type="text" name="username" class="form-control" value="">
+               
+            </div>    
+        
+            <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
+                <label>Descripcion</label>
+                <input type="password" name="confirm_password" class="form-control" value="">
+            </div>
+            
+            <button>
+              ENVIAR
+            </button>
+        </form>
+   </center>
+    
+    
+    </div>
+    <footer>
+      <center>
+        <p class="desarrolado">(Desarrollado por Luciano Tagliero)</p>
+        </center>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,374 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+/*    Importar varios fuentes/tipografias   */
+@font-face{
+    font-family:"TruenoBlk";
+    src:url(fuente/TruenoBlk.otf);
+}
+@font-face{
+    font-family:"TruenoExBd";
+    src:url(fuente/TruenoExBd.otf);
+    
+}
+@font-face{
+    font-family:"TruenoSBd";
+    src:url(fuente/TruenoSBd.otf);
+}
+:root{
+    font-family: TruenoSBd;
+}
+body{
+    text-align: center;
+    background: url(img/fondo4.jpg)fixed center center;
+    background-size: cover;
+}
+.container{
+    text-align: center;
+}
+
+.navegador{
+   
+    line-height: 50px;
+    background-color: rgba(235, 10, 30, 0.85);
+    width: 100%;
+    height: ;
+    padding: 6px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+}
+.h1{
+    font-size: 10px;
+}
+ nav li a {
+     font-family: TruenoSBd;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(235, 10, 30);
+    color: white;
+    width: 220px;
+    height: 50px;
+    display: inline-block;
+    transition: 1s;
+}
+.bot:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+article, section{
+
+    width: 500px;
+    display: inline-block;
+    
+}
+.pagina_maestro{
+    text-align: center;
+    width: 1560px;
+      background-color: rgba(255, 255, 255, 0.65);   
+}
+
+.titulo_producto{
+    font-family: TruenoSBd;
+    font-size: 2rem;
+    color: black;
+}
+
+.productos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    
+    color: black;
+    font-size: 40px;
+}
+
+.foto_prod{
+    border-radius: 40px;
+    border: 5px solid rgb(235, 10, 30);
+    
+}
+.pagina_detalle{
+    border-radius: 30px;
+    border: 10px bold rgb(235, 10, 30);
+    background-color: rgba(255, 255, 255, 0.65); 
+    width: 1800px;
+    padding: 50px;
+}
+.titulo_detalle{
+   font-family: TruenoSBd;
+    font-size: 3rem;
+    text-align: left;
+    color: black;
+}
+
+.precio ,h2,buttom{
+    font-size: 30px;
+    color: grey;
+    margin-left: 35px;
+    
+}
+.precio{
+    color: rgb(235, 10, 30);
+}
+.descripcion{
+    font-size: 17px;
+    color: black;
+    padding: 30px;
+}
+.detalle{
+    text-align: left;
+    color: gray;
+    font-size: 40px;
+    margin-right: 70px;
+}
+
+buttom {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(235, 10, 30);
+}
+.header2{
+    text-align: right;
+    background-color: gray;
+}
+.perfil{
+ 
+}
+.text_logo{
+    text-align: left; 
+    color: white; 
+    font-size: 50px; 
+    width: 800px;
+    display: inline-block;
+}
+.logo{
+    margin: 0;
+    width: 90px;
+    margin-right: 30px;
+}
+input{
+    font-size: 30px;
+    color: black;
+    width: 300px;
+    height: 40px;
+    margin-top: 0px;
+}
+.botones{
+    
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(235, 10, 30);
+    border-radius: 13px;
+    font-family: TruenoSBd;
+}
+
+.campos , .perfil{
+    display: inline-block;
+     padding: 10px;
+    
+    
+}
+.iniciar{
+    background-color: gray;
+    
+}
+
+.luciano {
+    display: inline-block;
+    width: 120px;
+    border-radius: 300px;
+   border: 5px solid rgb(191, 191, 191);
+}
+
+.soyLuciano {
+    text-align: center;
+    font-family: TruenoSBd;
+    font-size: 20px;
+    width: 500px;
+    display: inline-block;
+    color: #a0a0a0;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(235, 10, 30, 0.85);
+}
+span{
+    color: #d3d3d3;
+}
+.feme{
+    font-size: 45px;
+}
+.fondo_bienvenido{
+    width: 1900px;
+    height: 500px;
+    background: url(img/fondo5.jpg) center center;
+    background-size: cover;
+    text-align: left;
+    font-size: 40px;
+  
+}
+.bienvenido{
+    width: 520px;
+     height: 500px;
+    background-color: rgb(235, 10, 30, 0.58);
+    
+}
+.cerrar_sesion{
+    
+    
+    width: 175px;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 15px;
+    /*background-color: rgba(235, 10, 30, 0.33);*/
+}
+.tex_bien{
+
+    padding: 40px; 
+}
+.fulano{
+    margin-bottom: 250px;
+    color: #c4c4c4;
+    font-size: 40px;
+}
+.comentarios{
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 50px;
+}
+textarea{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: black;
+    width: 750px;
+    height: 70px;
+    border-radius: 15px;
+}
+.titulo_comentario{
+    margin-bottom: 25px;
+    text-decoration: underline;
+    color: black;
+    font-size: 2rem;
+}
+.fecha, .comento{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #767676;
+}
+.fulano-es{
+    color: #414141;
+    font-size: 27px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.registrar{
+      text-align: center;
+      width: 760px;
+      background-color: rgba(255, 255, 255, 0.65); 
+}
+
+
+.form_registrar{
+    height: 550px;
+    display: block;
+    color: black;
+    font-size: 30px;
+    font-family: TruenoSBd;
+    
+}
+.campos_re{
+    width: 440px;
+    border-radius: 6px;
+}
+label {
+    color: #535353;
+    
+}
+.cam_re{
+    text-align: left;
+    display: block
+}
+.btn_Registrar{
+    margin-top: 20px;
+    padding: 20p;
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(235, 10, 30);
+    border-radius: 13px;
+    font-family: TruenoSBd;
+}
+.btn_volver{
+    margin-top: 20px;
+    background-color: rgb(235, 10, 30);
+    padding: 15px;
+    width: 250px;
+    height: 55px;
+    border-radius: 13px;
+    font-size: 20px;
+    font-family: TruenoSBd;
+    
+}
+
+
+
+.registros{
+    text-align: center;
+      width: 1920px;
+      background-color: rgba(255, 255, 255, 0.65); 
+}
+table{
+      background-color: rgba(0, 0, 0, 0.5); 
+    font-size: 30px;
+    margin-bottom: 40px;
+    
+}
+td{
+    color: white;
+    padding: 20px;
+}
+tr{
+   
+    color: black;
+}
+.cen_tabla{
+    width: 1920px;
+}
+thead {
+    color: white;
+    background-color: rgba(235, 10, 30, 0.49);
+}
+select{
+    font-size: 20px;
+    width: 160px;
+    height: 35px;
+    padding: 6px;
+    color: black;
+}
+
+.admi_usuario {
+ /*background-color: black;*/
+    color: black;
+    
+}
+
